@@ -19,11 +19,11 @@ export default function App() {
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
-      <h2>Galeria de imagenes </h2>
+      <h2>Galeria de imagenes  </h2>
       {/* Campo de búsqueda */}
       <input
         type="text"
-        placeholder="Search by Title..."
+        placeholder="busca por el titulo..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         style={{ marginBottom: "20px", display: "block" }}
